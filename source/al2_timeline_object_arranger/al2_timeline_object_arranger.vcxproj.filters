@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_">
+      <UniqueIdentifier>{b6b2b8eb-9ad4-445a-b1d4-549874afdd21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_\resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="_\root">
+      <UniqueIdentifier>{88ce32ed-43cf-4a15-b434-502c0bb73bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="action">
+      <UniqueIdentifier>{6b58939e-03de-4ec8-a787-8cfcd5c85ee7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>_</Filter>
+    </ClInclude>
+    <ClInclude Include="app.hpp" />
+    <ClInclude Include="app_interface.hpp" />
+    <ClInclude Include="config_io.hpp" />
+    <ClInclude Include="debug.hpp" />
+    <ClInclude Include="hive.hpp" />
+    <ClInclude Include="utils.hpp" />
+    <ClInclude Include="resource.h">
+      <Filter>_\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="version.hpp">
+      <Filter>_</Filter>
+    </ClInclude>
+    <ClInclude Include="main_window.hpp" />
+    <ClInclude Include="action\absolute_space_left.hpp">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\absolute_space_right.hpp">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\action.hpp">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\align_left.hpp">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\align_right.hpp">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\erase_midpt.hpp">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\fix_bpm.hpp">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\move_vert_down.hpp">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\move_vert_up.hpp">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\relative_space_left.hpp">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\relative_space_right.hpp">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\shift_down.hpp">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\shift_up.hpp">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\stretch_left.hpp">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\stretch_right.hpp">
+      <Filter>action</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>_</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>_</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>_\resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="main.def">
+      <Filter>_</Filter>
+    </None>
+    <None Include="..\..\CONTRIBUTING.md">
+      <Filter>_\root</Filter>
+    </None>
+    <None Include="..\..\CREDITS.md">
+      <Filter>_\root</Filter>
+    </None>
+    <None Include="..\..\README.md">
+      <Filter>_\root</Filter>
+    </None>
+    <None Include="..\..\.gitattributes">
+      <Filter>_\root</Filter>
+    </None>
+    <None Include="..\..\.gitignore">
+      <Filter>_\root</Filter>
+    </None>
+    <None Include="..\..\LICENSE">
+      <Filter>_\root</Filter>
+    </None>
+  </ItemGroup>
+</Project>
