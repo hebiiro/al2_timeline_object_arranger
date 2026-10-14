@@ -547,7 +547,7 @@ namespace apn::timeline_object_arranger
 			{
 				// 元の位置に戻すのはほぼ不可能なので、
 				// エラーが出たことだけをユーザーに通知します。
-				throw
+				throw (std::wstring)
 					L"オブジェクトの移動に失敗しました\n"
 					L"お手数ですが、アンドゥで復元してください\n";
 			}
