@@ -391,6 +391,10 @@ namespace apn::timeline_object_arranger
 			// エラーが発生した場合は、エラーメッセージを表示します。
 			if (error_message.length())
 				hive.message_box(error_message);
+
+			// そのまま続けてアンドゥなどのキーボード操作ができるように、
+			// aviutl2ウィンドウにフォーカスを移動します。
+			::SetFocus(hive.aviutl2_window);
 		}
 
 		//
