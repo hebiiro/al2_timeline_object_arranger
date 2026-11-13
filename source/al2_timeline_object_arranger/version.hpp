@@ -9,6 +9,6 @@ namespace apn::timeline_object_arranger
 		//
 		// コンストラクタです。
 		//
-		version_t() : version_base_t(L"タイムラインオブジェクト整列", L"🐍タイムラインオブジェクト整列🔖", L"r2") {}
+		version_t() : version_base_t(L"整列", L"🐍整列🔖", L"r3") {}
 	} version;
 }
